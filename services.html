@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Services | La Maison</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body class="font-sans antialiased text-gray-800">
+
+  <!-- Navbar -->
+  <nav class="bg-white shadow-sm sticky top-0 z-50">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="flex justify-between items-center h-16">
+        <a href="index.html" class="text-2xl font-bold text-amber-800 tracking-wide">La Maison</a>
+        <div class="hidden md:flex space-x-8">
+          <a href="index.html" class="text-gray-600 hover:text-amber-800 transition">Home</a>
+          <a href="about.html" class="text-gray-600 hover:text-amber-800 transition">About</a>
+          <a href="services.html" class="text-amber-800 font-semibold border-b-2 border-amber-800">Services</a>
+          <a href="contact.html" class="text-gray-600 hover:text-amber-800 transition">Contact</a>
+        </div>
+        <button id="menu-btn" class="md:hidden text-gray-600 focus:outline-none">
+          <i class="fas fa-bars text-xl"></i>
+        </button>
+      </div>
+    </div>
+    <div id="mobile-menu" class="hidden md:hidden bg-white border-t">
+      <a href="index.html" class="block px-4 py-2 text-gray-600 hover:bg-amber-50">Home</a>
+      <a href="about.html" class="block px-4 py-2 text-gray-600 hover:bg-amber-50">About</a>
+      <a href="services.html" class="block px-4 py-2 text-amber-800 font-semibold bg-amber-50">Services</a>
+      <a href="contact.html" class="block px-4 py-2 text-gray-600 hover:bg-amber-50">Contact</a>
+    </div>
+  </nav>
+
+  <!-- Hero -->
+  <section class="relative h-64 sm:h-80 md:h-96 bg-gradient-to-br from-amber-900 via-amber-800 to-amber-700 overflow-hidden">
+    <div class="absolute inset-0 bg-black/40"></div>
+    <img src="https://images.unsplash.com/photo-1559339352-11d035aa65de?w=1600" alt="Restaurant kitchen" class="w-full h-full object-cover mix-blend-overlay">
+    <div class="absolute inset-0 flex items-center justify-center">
+      <div class="text-center px-4">
+        <h1 class="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-3">Our Services</h1>
+        <p class="text-amber-200 text-sm sm:text-base md:text-lg max-w-xl mx-auto">Exceptional experiences crafted for every occasion</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Intro -->
+  <section class="py-16 md:py-20 px-4">
+    <div class="max-w-4xl mx-auto text-center">
+      <span class="text-amber-700 font-semibold tracking-widest text-sm uppercase">Beyond the Plate</span>
+      <h2 class="text-3xl md:text-4xl font-bold text-gray-900 mt-2 mb-6">More Than <span class="text-amber-700">Just Dining</span></h2>
+      <p class="text-gray-600 leading-relaxed max-w-2xl mx-auto">At La Maison, we believe every gathering deserves to be extraordinary. From intimate private dinners to grand celebrations, our dedicated team curates bespoke experiences that turn your vision into an unforgettable culinary journey.</p>
+    </div>
+  </section>
+
+  <!-- Service Cards -->
+  <section class="pb-16 md:pb-20 px-4">
+    <div class="max-w-6xl mx-auto grid md:grid-cols-2 gap-8">
+      <!-- Private Dining -->
+      <div class="bg-white rounded-xl shadow-sm border border-gray-100 overflow-hidden hover:shadow-md transition group">
+        <div class="h-56 overflow-hidden">
+          <img src="https://images.unsplash.com/photo-1519671482749-fd09be7ccebf?w=600" alt="Private dining" class="w-full h-full object-cover group-hover:scale-105 transition duration-300">
+        </div>
+        <div class="p-6">
+          <div class="flex items-center gap-3 mb-3">
+            <div class="w-10 h-10 bg-amber-100 rounded-full flex items-center justify-center"><i class="fas fa-utensils text-amber-700"></i></div>
+            <h3 class="text-xl font-semibold text-gray-900">Private Dining</h3>
+          </div>
+          <p class="text-gray-600 leading-relaxed">Host your most memorable evenings in our elegant private salons. Choose from three beautifully appointed rooms seating 8 to 40 guests, each with its own character and dedicated service team.</p>
+          <ul class="mt-4 space-y-2 text-sm text-gray-500">
+            <li><i class="fas fa-check text-amber-600 w-5"></i> Customised tasting menus</li>
+            <li><i class="fas fa-check text-amber-600 w-5"></i> Sommelier-curated wine pairings</li>
+            <li><i class="fas fa-check text-amber-600 w-5"></i> Audio-visual facilities available</li>
+          </ul>
+        </div>
+      </div>
+      <!-- Catering -->
+      <div class="bg-white rounded-xl shadow-sm border border-gray-100 overflow-hidden hover:shadow-md transition group">
+        <div class="h-56 overflow-hidden">
+          <img src="https://images.unsplash.com/photo-1467003909585-2f8a72700288?w=600" alt="Catering" class="w-full h-full object-cover group-hover:scale-105 transition duration-300">
+        </div>
+        <div class="p-6">
+          <div class="flex items-center gap-3 mb-3">
+            <div class="w-10 h-10 bg-amber-100 rounded-full flex items-center justify-center"><i class="fas fa-truck text-amber-700"></i></div>
+            <h3 class="text-xl font-semibold text-gray-900">Exclusive Catering</h3>
+          </div>
+          <p class="text-gray-600 leading-relaxed">Bring the La Maison experience to your venue. Our off-site catering service delivers the same exquisite cuisine and meticulous presentation, whether for corporate events, weddings, or private galas.</p>
+          <ul class="mt-4 space-y-2 text-sm text-gray-500">
+            <li><i class="fas fa-check text-amber-600 w-5"></i> Full-service event catering</li>
+            <li><i class="fas fa-check text-amber-600 w-5"></i> Canapé & cocktail receptions</li>
+            <li><i class="fas fa-check text-amber-600 w-5"></i> Plated or buffet service options</li>
+          </ul>
+        </div>
+      </div>
+      <!-- Wine Tasting -->
+      <div class="bg-white rounded-xl shadow-sm border border-gray-100 overflow-hidden hover:shadow-md transition group">
+        <div class="h-56 overflow-hidden">
+          <img src="https://images.unsplash.com/photo-1506377247377-2a5b3b417ebb?w=600" alt="Wine tasting" class="w-full h-full object-cover group-hover:scale-105 transition duration-300">
+        </div>
+        <div class="p-6">
+          <div class="flex items-center gap-3 mb-3">
+            <div class="w-10 h-10 bg-amber-100 rounded-full flex items-center justify-center"><i class="fas fa-wine-glass-alt text-amber-700"></i></div>
+            <h3 class="text-xl font-semibold text-gray-900">Wine Tasting Experiences</h3>
+          </div>
+          <p class="text-gray-600 leading-relaxed">Join our Head Sommelier Antoine Moreau for an intimate journey through our 800-label wine cellar. Learn, taste, and discover rare vintages from Bordeaux, Burgundy, and beyond.</p>
+          <ul class="mt-4 space-y-2 text-sm text-gray-500">
+            <li><i class="fas fa-check text-amber-600 w-5"></i> Thematic tasting sessions</li>
+            <li><i class="fas fa-check text-amber-600 w-5"></i> Food & wine pairing workshops</li>
+            <li><i class="fas fa-check text-amber-600 w-5"></i> Private cellar tours</li>
+          </ul>
+        </div>
+      </div>
+      <!-- Events -->
+      <div class="bg-white rounded-xl shadow-sm border border-gray-100 overflow-hidden hover:shadow-md transition group">
+        <div class="h-56 overflow-hidden">
+          <img src="https://images.unsplash.com/photo-1464366400600-7168b8af9bc3?w=600" alt="Events" class="w-full h-full object-cover group-hover:scale-105 transition duration-300">
+        </div>
+        <div class="p-6">
+          <div class="flex items-center gap-3 mb-3">
+            <div class="w-10 h-10 bg-amber-100 rounded-full flex items-center justify-center"><i class="fas fa-calendar-check text-amber-700"></i></div>
+            <h3 class="text-xl font-semibold text-gray-900">Event Hosting</h3>
+          </div>
+          <p class="text-gray-600 leading-relaxed">Celebrate life's milestones with us. Whether it's an engagement, anniversary, corporate gala, or festive holiday party, our events team ensures every detail is flawlessly executed.</p>
+          <ul class="mt-4 space-y-2 text-sm text-gray-500">
+            <li><i class="fas fa-check text-amber-600 w-5"></i> Weddings & receptions</li>
+            <li><i class="fas fa-check text-amber-600 w-5"></i> Corporate dinners & galas</li>
+            <li><i class="fas fa-check text-amber-600 w-5"></i> Holiday & bespoke celebrations</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Pricing -->
+  <section class="py-16 md:py-20 bg-gray-50 px-4">
+    <div class="max-w-6xl mx-auto">
+      <div class="text-center mb-12">
+        <h2 class="text-3xl md:text-4xl font-bold text-gray-900">Choose Your Experience</h2>
+        <p class="text-gray-500 mt-3 max-w-lg mx-auto">Transparent pricing for every type of gathering</p>
+      </div>
+      <div class="grid md:grid-cols-3 gap-8">
+        <div class="bg-white rounded-xl shadow-sm border border-gray-100 p-8 text-center hover:shadow-md transition">
+          <p class="text-amber-700 font-semibold text-sm uppercase tracking-wider">Intimate</p>
+          <h3 class="text-2xl font-bold text-gray-900 mt-2">Private Dinner</h3>
+          <p class="text-4xl font-bold text-amber-800 mt-4">€120</p>
+          <p class="text-gray-400 text-sm">per person</p>
+          <ul class="mt-6 space-y-3 text-sm text-gray-600 text-left">
+            <li><i class="fas fa-check text-green-500 w-5"></i> 5-course tasting menu</li>
+            <li><i class="fas fa-check text-green-500 w-5"></i> Welcome champagne</li>
+            <li><i class="fas fa-check text-green-500 w-5"></i> Sommelier wine pairing</li>
+            <li><i class="fas fa-check text-green-500 w-5"></i> Private salon (up to 12)</li>
+            <li><i class="fas fa-check text-green-500 w-5"></i> Dedicated waitstaff</li>
+          </ul>
+          <a href="contact.html" class="mt-6 inline-block w-full bg-amber-800 text-white font-semibold px-6 py-3 rounded-lg hover:bg-amber-700 transition">Book Now</a>
+        </div>
+        <div class="bg-white rounded-xl shadow-sm border-2 border-amber-800 p-8 text-center hover:shadow-md transition relative">
+          <span class="absolute -top-3 left-1/2 -translate-x-1/2 bg-amber-800 text-white text-xs font-semibold px-4 py-1 rounded-full">Most Popular</span>
+          <p class="text-amber-700 font-semibold text-sm uppercase tracking-wider">Celebration</p>
+          <h3 class="text-2xl font-bold text-gray-900 mt-2">Grand Event</h3>
+          <p class="text-4xl font-bold text-amber-800 mt-4">€180</p>
+          <p class="text-gray-400 text-sm">per person</p>
+          <ul class="mt-6 space-y-3 text-sm text-gray-600 text-left">
+            <li><i class="fas fa-check text-green-500 w-5"></i> 7-course degustation menu</li>
+            <li><i class="fas fa-check text-green-500 w-5"></i> Premium champagne reception</li>
+            <li><i class="fas fa-check text-green-500 w-5"></i> Premium wine pairing</li>
+            <li><i class="fas fa-check text-green-500 w-5"></i> Main hall (up to 80)</li>
+            <li><i class="fas fa-check text-green-500 w-5"></i> Custom decoration included</li>
+            <li><i class="fas fa-check text-green-500 w-5"></i> Live pianist</li>
+          </ul>
+          <a href="contact.html" class="mt-6 inline-block w-full bg-amber-800 text-white font-semibold px-6 py-3 rounded-lg hover:bg-amber-700 transition">Book Now</a>
+        </div>
+        <div class="bg-white rounded-xl shadow-sm border border-gray-100 p-8 text-center hover:shadow-md transition">
+          <p class="text-amber-700 font-semibold text-sm uppercase tracking-wider">Corporate</p>
+          <h3 class="text-2xl font-bold text-gray-900 mt-2">Business Package</h3>
+          <p class="text-4xl font-bold text-amber-800 mt-4">€95</p>
+          <p class="text-gray-400 text-sm">per person</p>
+          <ul class="mt-6 space-y-3 text-sm text-gray-600 text-left">
+            <li><i class="fas fa-check text-green-500 w-5"></i> 3-course business lunch</li>
+            <li><i class="fas fa-check text-green-500 w-5"></i> Welcome coffee & petits fours</li>
+            <li><i class="fas fa-check text-green-500 w-5"></i> AV equipment & Wi-Fi</li>
+            <li><i class="fas fa-check text-green-500 w-5"></i> Semi-private space (up to 30)</li>
+            <li><i class="fas fa-check text-green-500 w-5"></i> Custom menu consultation</li>
+          </ul>
+          <a href="contact.html" class="mt-6 inline-block w-full bg-amber-800 text-white font-semibold px-6 py-3 rounded-lg hover:bg-amber-700 transition">Book Now</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Process -->
+  <section class="py-16 md:py-20 px-4">
+    <div class="max-w-6xl mx-auto">
+      <div class="text-center mb-12">
+        <h2 class="text-3xl md:text-4xl font-bold text-gray-900">How It Works</h2>
+        <p class="text-gray-500 mt-3 max-w-lg mx-auto">From enquiry to celebration — we make it seamless</p>
+      </div>
+      <div class="grid sm:grid-cols-2 lg:grid-cols-4 gap-8">
+        <div class="text-center">
+          <div class="w-16 h-16 bg-amber-100 rounded-full flex items-center justify-center mx-auto mb-4">
+            <span class="text-2xl font-bold text-amber-800">01</span>
+          </div>
+          <h3 class="font-semibold text-gray-900 mb-2">Enquire</h3>
+          <p class="text-gray-500 text-sm">Reach out via our contact form or call us to discuss your vision and requirements.</p>
+        </div>
+        <div class="text-center">
+          <div class="w-16 h-16 bg-amber-100 rounded-full flex items-center justify-center mx-auto mb-4">
+            <span class="text-2xl font-bold text-amber-800">02</span>
+          </div>
+          <h3 class="font-semibold text-gray-900 mb-2">Consult</h3>
+          <p class="text-gray-500 text-sm">We meet to curate the perfect menu, select wines, and plan every detail together.</p>
+        </div>
+        <div class="text-center">
+          <div class="w-16 h-16 bg-amber-100 rounded-full flex items-center justify-center mx-auto mb-4">
+            <span class="text-2xl font-bold text-amber-800">03</span>
+          </div>
+          <h3 class="font-semibold text-gray-900 mb-2">Confirm</h3>
+          <p class="text-gray-500 text-sm">We finalise the arrangement, confirm the booking, and handle all logistics.</p>
+        </div>
+        <div class="text-center">
+          <div class="w-16 h-16 bg-amber-100 rounded-full flex items-center justify-center mx-auto mb-4">
+            <span class="text-2xl font-bold text-amber-800">04</span>
+          </div>
+          <h3 class="font-semibold text-gray-900 mb-2">Celebrate</h3>
+          <p class="text-gray-500 text-sm">Relax and enjoy. Our team delivers an unforgettable experience from start to finish.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section class="py-16 md:py-20 bg-gray-50 px-4">
+    <div class="max-w-4xl mx-auto">
+      <div class="text-center mb-12">
+        <h2 class="text-3xl md:text-4xl font-bold text-gray-900">Frequently Asked Questions</h2>
+      </div>
+      <div class="space-y-4">
+        <details class="bg-white rounded-xl shadow-sm border border-gray-100 p-5 group open:border-amber-800 open:ring-1 open:ring-amber-800">
+          <summary class="font-semibold text-gray-900 cursor-pointer flex items-center justify-between">
+            How far in advance should I book?
+            <i class="fas fa-chevron-down text-amber-600 group-open:rotate-180 transition"></i>
+          </summary>
+          <p class="mt-3 text-gray-600 leading-relaxed text-sm">We recommend booking at least two weeks in advance for private dining and four to six weeks for larger events. During peak seasons (December, Valentine's week), earlier booking is advised.</p>
+        </details>
+        <details class="bg-white rounded-xl shadow-sm border border-gray-100 p-5 group open:border-amber-800 open:ring-1 open:ring-amber-800">
+          <summary class="font-semibold text-gray-900 cursor-pointer flex items-center justify-between">
+            Can you accommodate dietary restrictions?
+            <i class="fas fa-chevron-down text-amber-600 group-open:rotate-180 transition"></i>
+          </summary>
+          <p class="mt-3 text-gray-600 leading-relaxed text-sm">Absolutely. Our chefs are experienced with all dietary requirements including vegetarian, vegan, gluten-free, and allergen-specific menus. We'll work with you to create a bespoke menu that suits every guest.</p>
+        </details>
+        <details class="bg-white rounded-xl shadow-sm border border-gray-100 p-5 group open:border-amber-800 open:ring-1 open:ring-amber-800">
+          <summary class="font-semibold text-gray-900 cursor-pointer flex items-center justify-between">
+            Is there a minimum spend for private events?
+            <i class="fas fa-chevron-down text-amber-600 group-open:rotate-180 transition"></i>
+          </summary>
+          <p class="mt-3 text-gray-600 leading-relaxed text-sm">Minimum spend varies by room and day of the week. Our private dining coordinator will provide full details during your consultation, with options to suit a range of budgets.</p>
+        </details>
+        <details class="bg-white rounded-xl shadow-sm border border-gray-100 p-5 group open:border-amber-800 open:ring-1 open:ring-amber-800">
+          <summary class="font-semibold text-gray-900 cursor-pointer flex items-center justify-between">
+            Do you offer virtual consultations?
+            <i class="fas fa-chevron-down text-amber-600 group-open:rotate-180 transition"></i>
+          </summary>
+          <p class="mt-3 text-gray-600 leading-relaxed text-sm">Yes, we offer video consultations for clients who prefer to plan remotely. We can also arrange a virtual tour of our private dining spaces upon request.</p>
+        </details>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section class="py-16 bg-gradient-to-r from-amber-800 to-amber-700 px-4">
+    <div class="max-w-4xl mx-auto text-center">
+      <h2 class="text-3xl md:text-4xl font-bold text-white mb-4">Let's Create Something Special</h2>
+      <p class="text-amber-200 mb-8 max-w-xl mx-auto">Tell us about your event and we'll craft a bespoke experience that exceeds every expectation.</p>
+      <a href="contact.html" class="inline-block bg-white text-amber-800 font-semibold px-8 py-3 rounded-full hover:bg-amber-50 transition shadow-lg">Get in Touch</a>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-gray-900 text-gray-400">
+    <div class="max-w-7xl mx-auto px-4 py-12 grid sm:grid-cols-2 lg:grid-cols-4 gap-8">
+      <div>
+        <h3 class="text-white text-lg font-semibold mb-4">La Maison</h3>
+        <p class="text-sm leading-relaxed">Fine French dining in the heart of Lyon. Experience culinary excellence crafted with passion and tradition since 1987.</p>
+      </div>
+      <div>
+        <h4 class="text-white font-semibold mb-4">Quick Links</h4>
+        <ul class="space-y-2 text-sm">
+          <li><a href="index.html" class="hover:text-amber-400 transition">Home</a></li>
+          <li><a href="about.html" class="hover:text-amber-400 transition">About</a></li>
+          <li><a href="services.html" class="hover:text-amber-400 transition">Services</a></li>
+          <li><a href="contact.html" class="hover:text-amber-400 transition">Contact</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4 class="text-white font-semibold mb-4">Contact</h4>
+        <ul class="space-y-2 text-sm">
+          <li><i class="fas fa-map-marker-alt w-5 text-amber-400"></i> 42 Rue de la République, Lyon</li>
+          <li><i class="fas fa-phone w-5 text-amber-400"></i> +33 4 78 12 34 56</li>
+          <li><i class="fas fa-envelope w-5 text-amber-400"></i> hello@lamaison.fr</li>
+        </ul>
+      </div>
+      <div>
+        <h4 class="text-white font-semibold mb-4">Follow Us</h4>
+        <div class="flex space-x-4">
+          <a href="#" class="w-10 h-10 bg-gray-800 rounded-full flex items-center justify-center hover:bg-amber-700 transition"><i class="fab fa-instagram"></i></a>
+          <a href="#" class="w-10 h-10 bg-gray-800 rounded-full flex items-center justify-center hover:bg-amber-700 transition"><i class="fab fa-facebook-f"></i></a>
+          <a href="#" class="w-10 h-10 bg-gray-800 rounded-full flex items-center justify-center hover:bg-amber-700 transition"><i class="fab fa-twitter"></i></a>
+        </div>
+      </div>
+    </div>
+    <div class="border-t border-gray-800 py-6 text-center text-sm">
+      <p>&copy; 2026 La Maison. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById('menu-btn').addEventListener('click', function () {
+      const menu = document.getElementById('mobile-menu');
+      menu.classList.toggle('hidden');
+    });
+  </script>
+</body>
+</html>
