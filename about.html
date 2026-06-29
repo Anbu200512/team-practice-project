@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About Us | La Maison</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body class="font-sans antialiased text-gray-800">
+
+  <!-- Navbar -->
+  <nav class="bg-white shadow-sm sticky top-0 z-50">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="flex justify-between items-center h-16">
+        <a href="index.html" class="text-2xl font-bold text-amber-800 tracking-wide">La Maison</a>
+        <div class="hidden md:flex space-x-8">
+          <a href="index.html" class="text-gray-600 hover:text-amber-800 transition">Home</a>
+          <a href="about.html" class="text-amber-800 font-semibold border-b-2 border-amber-800">About</a>
+          <a href="services.html" class="text-gray-600 hover:text-amber-800 transition">Services</a>
+          <a href="contact.html" class="text-gray-600 hover:text-amber-800 transition">Contact</a>
+        </div>
+        <button id="menu-btn" class="md:hidden text-gray-600 focus:outline-none">
+          <i class="fas fa-bars text-xl"></i>
+        </button>
+      </div>
+    </div>
+    <div id="mobile-menu" class="hidden md:hidden bg-white border-t">
+      <a href="index.html" class="block px-4 py-2 text-gray-600 hover:bg-amber-50">Home</a>
+      <a href="about.html" class="block px-4 py-2 text-amber-800 font-semibold bg-amber-50">About</a>
+      <a href="services.html" class="block px-4 py-2 text-gray-600 hover:bg-amber-50">Services</a>
+      <a href="contact.html" class="block px-4 py-2 text-gray-600 hover:bg-amber-50">Contact</a>
+    </div>
+  </nav>
+
+  <!-- Hero -->
+  <section class="relative h-64 sm:h-80 md:h-96 bg-gradient-to-br from-amber-900 via-amber-800 to-amber-700 overflow-hidden">
+    <div class="absolute inset-0 bg-black/40"></div>
+    <img src="https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=1600" alt="Restaurant interior" class="w-full h-full object-cover mix-blend-overlay">
+    <div class="absolute inset-0 flex items-center justify-center">
+      <div class="text-center px-4">
+        <h1 class="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-3">Our Story</h1>
+        <p class="text-amber-200 text-sm sm:text-base md:text-lg max-w-xl mx-auto">Where passion meets plate — a journey of flavour, family, and tradition</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Our Story -->
+  <section class="py-16 md:py-20 px-4">
+    <div class="max-w-6xl mx-auto">
+      <div class="grid md:grid-cols-2 gap-10 items-center">
+        <div>
+          <span class="text-amber-700 font-semibold tracking-widest text-sm uppercase">Since 1987</span>
+          <h2 class="text-3xl md:text-4xl font-bold text-gray-900 mt-2 mb-6">A Legacy of <span class="text-amber-700">Exceptional</span> Dining</h2>
+          <div class="space-y-4 text-gray-600 leading-relaxed">
+            <p>La Maison was born from a simple dream — to bring the warmth of French home cooking to every table. Founded by the Dubois family in the heart of Lyon, our restaurant has been a gathering place for food lovers for over three decades.</p>
+            <p>What started as a small bistro with eight tables has grown into a celebrated destination, earning a Michelin star in 2005 and remaining a beloved institution for locals and travellers alike.</p>
+            <p>Every dish we serve carries the soul of our heritage — locally sourced ingredients, time-honoured techniques, and an unwavering commitment to quality that has defined us from day one.</p>
+          </div>
+        </div>
+        <div class="grid grid-cols-2 gap-3">
+          <img src="https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=600" alt="Dish" class="rounded-xl w-full h-48 sm:h-56 object-cover shadow-lg">
+          <img src="https://images.unsplash.com/photo-1555396273-367ea4eb4db5?w=600" alt="Dining" class="rounded-xl w-full h-48 sm:h-56 object-cover shadow-lg mt-6">
+          <img src="https://images.unsplash.com/photo-1559339352-11d035aa65de?w=600" alt="Kitchen" class="rounded-xl w-full h-48 sm:h-56 object-cover shadow-lg -mt-6">
+          <img src="https://images.unsplash.com/photo-1550966871-3ed3cdb51f3a?w=600" alt="Restaurant" class="rounded-xl w-full h-48 sm:h-56 object-cover shadow-lg">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Stats -->
+  <section class="py-14 bg-amber-50">
+    <div class="max-w-6xl mx-auto px-4">
+      <div class="grid grid-cols-2 md:grid-cols-4 gap-6 text-center">
+        <div>
+          <p class="text-4xl md:text-5xl font-bold text-amber-800">38</p>
+          <p class="text-gray-600 mt-1 text-sm uppercase tracking-wider">Years of Excellence</p>
+        </div>
+        <div>
+          <p class="text-4xl md:text-5xl font-bold text-amber-800">1</p>
+          <p class="text-gray-600 mt-1 text-sm uppercase tracking-wider">Michelin Star</p>
+        </div>
+        <div>
+          <p class="text-4xl md:text-5xl font-bold text-amber-800">50K+</p>
+          <p class="text-gray-600 mt-1 text-sm uppercase tracking-wider">Happy Guests</p>
+        </div>
+        <div>
+          <p class="text-4xl md:text-5xl font-bold text-amber-800">120+</p>
+          <p class="text-gray-600 mt-1 text-sm uppercase tracking-wider">Awards Won</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Mission & Vision -->
+  <section class="py-16 md:py-20 px-4">
+    <div class="max-w-6xl mx-auto">
+      <div class="text-center mb-12">
+        <h2 class="text-3xl md:text-4xl font-bold text-gray-900">What We Stand For</h2>
+        <p class="text-gray-500 mt-3 max-w-lg mx-auto">Our guiding principles that shape every experience at La Maison</p>
+      </div>
+      <div class="grid md:grid-cols-3 gap-8">
+        <div class="bg-white p-8 rounded-xl shadow-sm border border-gray-100 text-center hover:shadow-md transition">
+          <div class="w-14 h-14 bg-amber-100 rounded-full flex items-center justify-center mx-auto mb-5">
+            <i class="fas fa-heart text-2xl text-amber-700"></i>
+          </div>
+          <h3 class="text-xl font-semibold text-gray-900 mb-3">Our Mission</h3>
+          <p class="text-gray-600 leading-relaxed">To create unforgettable culinary experiences by marrying the finest seasonal ingredients with time-honoured French techniques, served with genuine warmth.</p>
+        </div>
+        <div class="bg-white p-8 rounded-xl shadow-sm border border-gray-100 text-center hover:shadow-md transition">
+          <div class="w-14 h-14 bg-amber-100 rounded-full flex items-center justify-center mx-auto mb-5">
+            <i class="fas fa-eye text-2xl text-amber-700"></i>
+          </div>
+          <h3 class="text-xl font-semibold text-gray-900 mb-3">Our Vision</h3>
+          <p class="text-gray-600 leading-relaxed">To be a beacon of culinary artistry — inspiring a global appreciation for French cuisine while nurturing the next generation of chefs and hospitality leaders.</p>
+        </div>
+        <div class="bg-white p-8 rounded-xl shadow-sm border border-gray-100 text-center hover:shadow-md transition">
+          <div class="w-14 h-14 bg-amber-100 rounded-full flex items-center justify-center mx-auto mb-5">
+            <i class="fas fa-handshake text-2xl text-amber-700"></i>
+          </div>
+          <h3 class="text-xl font-semibold text-gray-900 mb-3">Our Values</h3>
+          <p class="text-gray-600 leading-relaxed">Integrity in sourcing, excellence in execution, warmth in service, and a deep respect for the traditions that make every meal a celebration of life.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Team -->
+  <section class="py-16 md:py-20 bg-gray-50 px-4">
+    <div class="max-w-6xl mx-auto">
+      <div class="text-center mb-12">
+        <h2 class="text-3xl md:text-4xl font-bold text-gray-900">Meet Our Team</h2>
+        <p class="text-gray-500 mt-3 max-w-lg mx-auto">The passionate people behind every exquisite plate</p>
+      </div>
+      <div class="grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
+        <div class="bg-white rounded-xl shadow-sm overflow-hidden group">
+          <img src="https://images.unsplash.com/photo-1556910103-1c02745aae4d?w=400" alt="Chef" class="w-full h-64 object-cover group-hover:scale-105 transition duration-300">
+          <div class="p-5">
+            <h3 class="font-semibold text-gray-900">Jean-Pierre Dubois</h3>
+            <p class="text-amber-700 text-sm">Executive Chef & Founder</p>
+          </div>
+        </div>
+        <div class="bg-white rounded-xl shadow-sm overflow-hidden group">
+          <img src="https://images.unsplash.com/photo-1595273670150-bd0c3c392e46?w=400" alt="Chef" class="w-full h-64 object-cover group-hover:scale-105 transition duration-300">
+          <div class="p-5">
+            <h3 class="font-semibold text-gray-900">Marie Laurent</h3>
+            <p class="text-amber-700 text-sm">Head Pastry Chef</p>
+          </div>
+        </div>
+        <div class="bg-white rounded-xl shadow-sm overflow-hidden group">
+          <img src="https://images.unsplash.com/photo-1583394838336-acd977736f90?w=400" alt="Sommelier" class="w-full h-64 object-cover group-hover:scale-105 transition duration-300">
+          <div class="p-5">
+            <h3 class="font-semibold text-gray-900">Antoine Moreau</h3>
+            <p class="text-amber-700 text-sm">Head Sommelier</p>
+          </div>
+        </div>
+        <div class="bg-white rounded-xl shadow-sm overflow-hidden group">
+          <img src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=400" alt="Manager" class="w-full h-64 object-cover group-hover:scale-105 transition duration-300">
+          <div class="p-5">
+            <h3 class="font-semibold text-gray-900">Claire Fontaine</h3>
+            <p class="text-amber-700 text-sm">Restaurant Manager</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Testimonials -->
+  <section class="py-16 md:py-20 px-4">
+    <div class="max-w-6xl mx-auto">
+      <div class="text-center mb-12">
+        <h2 class="text-3xl md:text-4xl font-bold text-gray-900">What Our Guests Say</h2>
+        <p class="text-gray-500 mt-3 max-w-lg mx-auto">Words from those who have dined with us</p>
+      </div>
+      <div class="grid md:grid-cols-3 gap-8">
+        <div class="bg-white p-6 rounded-xl shadow-sm border border-gray-100">
+          <div class="flex text-amber-400 mb-3">
+            <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+          </div>
+          <p class="text-gray-600 italic leading-relaxed">"An extraordinary dining experience. Every course was a masterpiece. The tasting menu with wine pairing is simply unforgettable."</p>
+          <div class="mt-4 flex items-center gap-3">
+            <div class="w-10 h-10 bg-amber-200 rounded-full flex items-center justify-center text-amber-800 font-bold">SK</div>
+            <div>
+              <p class="font-semibold text-sm">Sarah Kennedy</p>
+              <p class="text-xs text-gray-400">Food Critic, Le Guide</p>
+            </div>
+          </div>
+        </div>
+        <div class="bg-white p-6 rounded-xl shadow-sm border border-gray-100">
+          <div class="flex text-amber-400 mb-3">
+            <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+          </div>
+          <p class="text-gray-600 italic leading-relaxed">"We celebrated our anniversary here and it was perfect. The ambiance, the service, the food — everything was world-class."</p>
+          <div class="mt-4 flex items-center gap-3">
+            <div class="w-10 h-10 bg-amber-200 rounded-full flex items-center justify-center text-amber-800 font-bold">MR</div>
+            <div>
+              <p class="font-semibold text-sm">Michael & Rachel</p>
+              <p class="text-xs text-gray-400">Regular Guests</p>
+            </div>
+          </div>
+        </div>
+        <div class="bg-white p-6 rounded-xl shadow-sm border border-gray-100">
+          <div class="flex text-amber-400 mb-3">
+            <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+          </div>
+          <p class="text-gray-600 italic leading-relaxed">"La Maison is the gold standard of French fine dining. Chef Dubois's passion shines through in every single dish."</p>
+          <div class="mt-4 flex items-center gap-3">
+            <div class="w-10 h-10 bg-amber-200 rounded-full flex items-center justify-center text-amber-800 font-bold">EL</div>
+            <div>
+              <p class="font-semibold text-sm">Emma Laurent</p>
+              <p class="text-xs text-gray-400">Travel & Food Blogger</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section class="py-16 bg-gradient-to-r from-amber-800 to-amber-700 px-4">
+    <div class="max-w-4xl mx-auto text-center">
+      <h2 class="text-3xl md:text-4xl font-bold text-white mb-4">Ready to Experience La Maison?</h2>
+      <p class="text-amber-200 mb-8 max-w-xl mx-auto">Reserve your table today and discover why we've been a beloved dining destination for over three decades.</p>
+      <a href="contact.html" class="inline-block bg-white text-amber-800 font-semibold px-8 py-3 rounded-full hover:bg-amber-50 transition shadow-lg">Make a Reservation</a>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-gray-900 text-gray-400">
+    <div class="max-w-7xl mx-auto px-4 py-12 grid sm:grid-cols-2 lg:grid-cols-4 gap-8">
+      <div>
+        <h3 class="text-white text-lg font-semibold mb-4">La Maison</h3>
+        <p class="text-sm leading-relaxed">Fine French dining in the heart of Lyon. Experience culinary excellence crafted with passion and tradition since 1987.</p>
+      </div>
+      <div>
+        <h4 class="text-white font-semibold mb-4">Quick Links</h4>
+        <ul class="space-y-2 text-sm">
+          <li><a href="index.html" class="hover:text-amber-400 transition">Home</a></li>
+          <li><a href="about.html" class="hover:text-amber-400 transition">About</a></li>
+          <li><a href="services.html" class="hover:text-amber-400 transition">Services</a></li>
+          <li><a href="contact.html" class="hover:text-amber-400 transition">Contact</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4 class="text-white font-semibold mb-4">Contact</h4>
+        <ul class="space-y-2 text-sm">
+          <li><i class="fas fa-map-marker-alt w-5 text-amber-400"></i> 42 Rue de la République, Lyon</li>
+          <li><i class="fas fa-phone w-5 text-amber-400"></i> +33 4 78 12 34 56</li>
+          <li><i class="fas fa-envelope w-5 text-amber-400"></i> hello@lamaison.fr</li>
+        </ul>
+      </div>
+      <div>
+        <h4 class="text-white font-semibold mb-4">Follow Us</h4>
+        <div class="flex space-x-4">
+          <a href="#" class="w-10 h-10 bg-gray-800 rounded-full flex items-center justify-center hover:bg-amber-700 transition"><i class="fab fa-instagram"></i></a>
+          <a href="#" class="w-10 h-10 bg-gray-800 rounded-full flex items-center justify-center hover:bg-amber-700 transition"><i class="fab fa-facebook-f"></i></a>
+          <a href="#" class="w-10 h-10 bg-gray-800 rounded-full flex items-center justify-center hover:bg-amber-700 transition"><i class="fab fa-twitter"></i></a>
+        </div>
+      </div>
+    </div>
+    <div class="border-t border-gray-800 py-6 text-center text-sm">
+      <p>&copy; 2026 La Maison. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById('menu-btn').addEventListener('click', function () {
+      const menu = document.getElementById('mobile-menu');
+      menu.classList.toggle('hidden');
+    });
+  </script>
+</body>
+</html>
